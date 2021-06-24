@@ -1,0 +1,10 @@
+server:
+  port: 8088
+spring:
+  application:
+    name: school-config-serve
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/luisorellana777/school-config.git
